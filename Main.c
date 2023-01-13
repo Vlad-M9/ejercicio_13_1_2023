@@ -213,14 +213,17 @@ for(i=0;i<n; i++){
     resultado[contador++] = v1[i];
         }
 
-
     printf("\nlos valores inferiores a 1:\n");
     for (i=0; i<contador;i++){
         printf("%.6f", resultado[i]);
-            }
+
+  // Variable acumuladora           
 int suma=0;
+
+// Recorre cada elemento del vector y acumular su valor
 for(i=0;i<n; i++){
     suma+=v1[i];
+    //calcula la media aritmética
 float media = (float)suma / n;
 printf ("\nMedia aritmetica: %.2f\n", media);
 }
