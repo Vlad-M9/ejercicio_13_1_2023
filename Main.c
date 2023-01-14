@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//*Realizar un programa con dos funciones: uno con un vector mostrando los números inferiores a uno, y la otra función con la media aritmética del vector original
 
 int main(){
 
@@ -216,7 +216,7 @@ for(i=0;i<n; i++){
     printf("\nlos valores inferiores a 1:\n");
     for (i=0; i<contador;i++){
         printf("%.6f", resultado[i]);
-
+         }
   // Variable acumuladora           
 int suma=0;
 
@@ -227,4 +227,4 @@ for(i=0;i<n; i++){
 float media = (float)suma / n;
 printf ("\nMedia aritmetica: %.2f\n", media);
 }
-}
+ }
